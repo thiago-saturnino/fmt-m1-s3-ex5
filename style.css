@@ -1,0 +1,40 @@
+body {
+  font-family: "Courier", monospace;
+  text-align: center;
+  background-image: url(./fundo.jpeg);
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#root {
+  padding: 500px, 0px, 0px, 0px;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+}
+img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.3s;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+}
+h2 {
+  color: white;
+}
+
+h2:hover {
+  color: lightblue;
+  transition: 0.3s;
+}
+
+#bio {
+  margin-left: 300px;
+  margin-right: 300px;
+}
